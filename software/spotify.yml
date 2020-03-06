@@ -7,7 +7,7 @@ packages:
     - name: "spotify"
       manager: AURUTILS
 settings:
-  - path: ~/.config/i3/config2
+  - path: ~/.config/i3/config
     content: |-
       bindsym XF86AudioPause exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause"
       bindsym XF86AudioPlay exec "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause"
