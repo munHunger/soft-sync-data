@@ -8,6 +8,10 @@ packages:
     alternatives:
       - name: "jsoncpp"
         manager: PACMAN
+  - name: "upower"
+    alternatives:
+  ￼  - name: "upower"
+  ￼    manager: PACMAN
   - name: "polybar"
     alternatives:
       - name: "polybar-git"
@@ -19,7 +23,7 @@ packages:
 settings:
   - path: ~/.config/i3/config
     content: |-
-      exec --no-startup-id polybar poly
+      exec --no-startup-id ~/.config/polybar/launch.sh
     position:
       type: END
     when:
@@ -564,7 +568,7 @@ settings:
 
       [module/battery]
       type = internal/battery
-      battery = BAT0
+      battery = BAT1
       adapter = AC
       full-at = 98
 

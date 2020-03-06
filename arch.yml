@@ -17,6 +17,8 @@ wanted:
   - x
   - bashPrompt
   - wallpaper
+  - bluetooth
+  - spotify
 installed:
   - aurutils
   - urxvt
