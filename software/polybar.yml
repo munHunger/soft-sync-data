@@ -10,8 +10,8 @@ packages:
         manager: PACMAN
   - name: "upower"
     alternatives:
-  ￼  - name: "upower"
-  ￼    manager: PACMAN
+      - name: "upower"
+        manager: PACMAN
   - name: "polybar"
     alternatives:
       - name: "polybar-git"
