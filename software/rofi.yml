@@ -1,4 +1,169 @@
 name: "Rofi"
+settings:
+  - path: ~/.config/i3/config
+    content: |-
+      bindsym $mod+d exec rofi -show combi
+    position:
+      type: END
+    when:
+      installed:
+        - i3
+  - path: ~/.config/rofi/config
+    content: |-
+      configuration {
+        modi: "window,drun,ssh,combi";
+        theme: "solarized";
+        font: "hack 10";
+        combi-modi: "window,drun,ssh";
+      }
+  - path: ~/.config/rofi/config.rasi
+    content: |-
+      /**
+      * rofi -dump-theme output.
+      * Rofi version: 1.5.4
+      **/
+      * {
+          red:                         rgba ( 220, 50, 47, 100 % );
+          selected-active-foreground:  var(selected-normal-foreground);
+          lightfg:                     rgba ( 88, 104, 117, 100 % );
+          separatorcolor:              var(foreground);
+          urgent-foreground:           var(red);
+          alternate-urgent-background: var(lightbg);
+          lightbg:                     var(background);
+          spacing:                     2;
+          border-color:                var(foreground);
+          normal-background:           var(background);
+          background-color:            rgba ( 0, 0, 0, 0 % );
+          alternate-active-background: var(lightbg);
+          active-foreground:           rgba ( 255, 226, 97, 100 % );
+          blue:                        rgba ( 38, 139, 210, 100 % );
+          urgent-background:           var(background);
+          alternate-normal-foreground: var(foreground);
+          selected-active-background:  var(background);
+          background:                  rgba ( 59, 60, 68, 100 % );
+          selected-normal-foreground:  rgba (64, 180, 196, 100 %);
+          active-background:           var(background);
+          alternate-active-foreground: rgba(255, 226, 97, 100 %);
+          alternate-normal-background: var(lightbg);
+          foreground:                  rgba ( 180, 220, 231, 100 % );
+          selected-urgent-background:  var(red);
+          selected-urgent-foreground:  var(background);
+          normal-foreground:           var(foreground);
+          alternate-urgent-foreground: var(red);
+          selected-normal-background:  var(background);
+      }
+      window {
+          padding:          5;
+          background-color: var(background);
+          border:           0;
+      }
+      mainbox {
+          padding: 0;
+          border:  0;
+      }
+      message {
+          padding:      1px ;
+          border-color: var(separatorcolor);
+          border:       0px dash 0px 0px ;
+      }
+      textbox {
+          text-color: var(foreground);
+      }
+      listview {
+          padding:      2px 0px 0px ;
+          scrollbar:    true;
+          border-color: var(separatorcolor);
+          spacing:      2px ;
+          fixed-height: 0;
+          border:       0px dash 0px 0px ;
+      }
+      element {
+          padding: 1px ;
+          border:  0;
+      }
+      element normal.normal {
+          background-color: var(normal-background);
+          text-color:       var(normal-foreground);
+      }
+      element normal.urgent {
+          background-color: var(urgent-background);
+          text-color:       var(urgent-foreground);
+      }
+      element normal.active {
+          background-color: var(active-background);
+          text-color:       var(active-foreground);
+      }
+      element selected.normal {
+          background-color: var(selected-normal-background);
+          text-color:       var(selected-normal-foreground);
+      }
+      element selected.urgent {
+          background-color: var(selected-urgent-background);
+          text-color:       var(selected-urgent-foreground);
+      }
+      element selected.active {
+          background-color: var(selected-active-background);
+          text-color:       var(selected-active-foreground);
+      }
+      element alternate.normal {
+          background-color: var(alternate-normal-background);
+          text-color:       var(alternate-normal-foreground);
+      }
+      element alternate.urgent {
+          background-color: var(alternate-urgent-background);
+          text-color:       var(alternate-urgent-foreground);
+      }
+      element alternate.active {
+          background-color: var(alternate-active-background);
+          text-color:       var(alternate-active-foreground);
+      }
+      scrollbar {
+          width:        0px ;
+          padding:      0;
+          handle-width: 0px ;
+          border:       0;
+          handle-color: var(normal-foreground);
+      }
+      mode-switcher {
+          border-color: var(separatorcolor);
+          border:       0px dash 0px 0px ;
+      }
+      button {
+          spacing:    0;
+          text-color: var(normal-foreground);
+      }
+      button selected {
+          background-color: var(selected-normal-background);
+          text-color:       var(selected-normal-foreground);
+      }
+      inputbar {
+          padding:    1px ;
+          spacing:    0px ;
+          text-color: var(normal-foreground);
+          children:   [ prompt,textbox-prompt-colon,entry,overlay,case-indicator ];
+      }
+      case-indicator {
+          spacing:    0;
+          text-color: var(normal-foreground);
+      }
+      entry {
+          spacing:    0;
+          text-color: var(normal-foreground);
+      }
+      prompt {
+          spacing:    0;
+          text-color: var(normal-foreground);
+      }
+      textbox-prompt-colon {
+          margin:     0px 0.3000em 0.0000em 0.0000em ;
+          expand:     false;
+          str:        ":";
+          text-color: inherit;
+      }
+      error-message {
+          background-color: rgba ( 0, 0, 0, 0 % );
+          text-color:       var(normal-foreground);
+      }
 packages:
   - name: "rofi"
     alternatives:

@@ -16,7 +16,6 @@ settings:
       # kill focused window
       bindsym $mod+Shift+q kill
 
-      bindsym $mod+d exec rofi -show run #CHANGE-ME
       #bindsym $mod+p exec bwmenu
 
       # alternatively, you can use the cursor keys:
@@ -145,4 +144,3 @@ settings:
       bindsym XF86AudioMute exec "pactl set-sink-mute @DEFAULT_SINK@ toggle"
 
       #bindsym Print exec scrot '%Y%m%d_%H%M%S.png' -e 'mv $f $HOME/pictures/screenshots' && notify-send 'screnshot' 'taken. in ~/pictures/screenshots'
-      #bindsym shift+Print --release exec notify-send 'screenshot' 'please select area' && scrot '%Y%m%d_%H%M%S.png' -s -e 'mv $f $HOME/pictures/screenshots' && notify-send 'screnshot' 'taken. in ~/pictures/screenshots'

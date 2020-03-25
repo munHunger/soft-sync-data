@@ -1,0 +1,8 @@
+name: "Color picker"
+dependencies:
+  - aurutils
+packages:
+  - name: "colorpicker"
+    alternatives:
+      - name: "colorpicker"
+        manager: AURUTILS

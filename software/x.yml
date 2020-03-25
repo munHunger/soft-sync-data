@@ -57,7 +57,7 @@ settings:
       *.color7:		 #ffffff
 
       !black
-      *.color8:		 #111111
+      *.color8:		 #222222
       !red
       *.color9:		 #EB64B9
       !green

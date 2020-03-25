@@ -19,6 +19,10 @@ wanted:
   - wallpaper
   - bluetooth
   - spotify
+  - extra/man
+  - extra/colorPicker
+  - extra/scrot
+  - social/discord
 installed:
   - aurutils
   - urxvt
@@ -32,3 +36,11 @@ installed:
   - i3
   - chrome
   - x
+  - bashPrompt
+  - wallpaper
+  - bluetooth
+  - spotify
+  - extra/man
+  - extra/colorPicker
+  - extra/scrot
+  - social/discord

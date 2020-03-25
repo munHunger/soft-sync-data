@@ -1,0 +1,6 @@
+name: "Discord"
+packages:
+  - name: "discord"
+    alternatives:
+      - name: "discord"
+        manager: PACMAN

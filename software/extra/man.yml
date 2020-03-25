@@ -1,0 +1,6 @@
+name: "man pages"
+packages:
+  - name: "man"
+    alternatives:
+      - name: "man"
+        manager: PACMAN

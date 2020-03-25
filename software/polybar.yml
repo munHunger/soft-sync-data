@@ -209,14 +209,17 @@ settings:
       ;==========================================================
 
       [colors]
+      ramp-low = ${xrdb:color2:#010}
+      ramp-medium = ${xrdb:color3:#010}
+      ramp-high = ${xrdb:color1:#010}
       background = ${xrdb:color0:#010}
-      background-alt = ${xrdb:color0:#000}
-      foreground = ${xrdb:color7:#A7C9C3}
+      background-alt = ${xrdb:color8:#000}
+      foreground = ${xrdb:color6:#A7C9C3}
       foreground-focus = ${xrdb:color6:#FFC600}
-      foreground-alt = ${xrdb:color8:#555}
+      foreground-alt = ${xrdb:color14:#555}
       primary = ${xrdb:color7:#ffb52a}
-      secondary = ${xrdb:color6:#e60053}
-      alert = ${xrdb:color4:#C714CC}
+      secondary = ${xrdb:color9:#e60053}
+      alert = ${xrdb:color1:#C714CC}
 
       [bar/poly]
       monitor = ${env:MONITOR:}
@@ -544,19 +547,19 @@ settings:
 
       format-volume = <label-volume> <bar-volume>
       label-volume = VOL %percentage%%
-      label-volume-foreground = ${root.foreground}
+      label-volume-foreground = ${colors.foreground}
 
       label-muted =  muted
-      label-muted-foreground = #666
+      label-muted-foreground = ${colors.background-alt}
 
       bar-volume-width = 10
-      bar-volume-foreground-0 = #55aa55
-      bar-volume-foreground-1 = #55aa55
-      bar-volume-foreground-2 = #55aa55
-      bar-volume-foreground-3 = #55aa55
-      bar-volume-foreground-4 = #55aa55
-      bar-volume-foreground-5 = #f5a70a
-      bar-volume-foreground-6 = #ff5555
+      bar-volume-foreground-0 = ${colors.ramp-low}
+      bar-volume-foreground-1 = ${colors.ramp-low}
+      bar-volume-foreground-2 = ${colors.ramp-low}
+      bar-volume-foreground-3 = ${colors.ramp-low}
+      bar-volume-foreground-4 = ${colors.ramp-low}
+      bar-volume-foreground-5 = ${colors.ramp-medium}
+      bar-volume-foreground-6 = ${colors.ramp-high}
       bar-volume-gradient = false
       bar-volume-indicator = |
       bar-volume-indicator-font = 2

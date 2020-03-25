@@ -1,0 +1,15 @@
+name: "scrot print screen"
+packages:
+  - name: "scrot"
+    alternatives:
+      - name: "scrot"
+        manager: PACMAN
+settings:
+  - path: ~/.config/i3/config
+    content: |-
+      bindsym Print --release exec notify-send 'screenshot' 'please select area' && scrot '%Y%m%d_%H%M%S.png' -s -e 'mv $f /tmp' && notify-send 'screnshot' 'taken. in /tmp'
+    position:
+      type: END
+    when:
+      installed:
+        - i3

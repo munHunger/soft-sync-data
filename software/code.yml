@@ -17,7 +17,7 @@ settings:
         "workbench.panel.defaultLocation": "right",
         "workbench.settings.useSplitJSON": true,
         "git.autofetch": true,
-        "editor.formatOnSave": false,
+        "editor.formatOnSave": true,
         "breadcrumbs.enabled": true,
         "sync.gist": "b89c34f539dd66636eaa7b71a74a3f12",
         "editor.suggestSelection": "first",
@@ -115,4 +115,3 @@ settings:
         },
         "workbench.colorTheme": "LaserWave"
       }
-      
