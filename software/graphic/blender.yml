@@ -1,0 +1,6 @@
+name: "Blender"
+packages:
+  - name: "blender"
+    alternatives:
+      - name: "blender"
+        manager: PACMAN

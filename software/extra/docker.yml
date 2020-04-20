@@ -1,0 +1,6 @@
+name: "docker"
+packages:
+  - name: "docker"
+    alternatives:
+      - name: "docker"
+        manager: PACMAN

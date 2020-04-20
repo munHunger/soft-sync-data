@@ -4,6 +4,10 @@ packages:
     alternatives:
       - name: "xterm"
         manager: PACMAN
+  - name: "x events"
+    alternatives:
+      - name: "xorg-xev"
+        manager: PACMAN
   - name: "xinput"
     alternatives:
       - name: "xorg-xinput"

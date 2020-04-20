@@ -1,0 +1,6 @@
+name: "Steam"
+packages:
+  - name: "Steam"
+    alternatives:
+      - name: "steam"
+        manager: PACMAN

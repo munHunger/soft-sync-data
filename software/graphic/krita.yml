@@ -1,0 +1,6 @@
+name: "Krita"
+packages:
+  - name: "krita"
+    alternatives:
+      - name: "krita"
+        manager: PACMAN

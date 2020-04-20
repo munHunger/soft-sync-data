@@ -1,0 +1,42 @@
+name: "Network manager"
+packages:
+  - name: "networkmanager"
+    alternatives:
+      - name: "networkmanager"
+        manager: PACMAN
+  - name: "applet"
+    alternatives:
+      - name: "network-manager-applet"
+        manager: PACMAN
+  - name: "editor gui"
+    alternatives:
+      - name: "nm-connection-editor"
+        manager: PACMAN
+  - name: "keyring"
+    alternatives:
+      - name: "gnome-keyring"
+        manager: PACMAN
+  - name: "wpa_supplicant"
+    alternatives:
+      - name: "wpa_supplicant"
+        manager: PACMAN
+  - name: "wireless tools"
+    alternatives:
+      - name: "wireless_tools"
+        manager: PACMAN
+settings:
+  - path: ~/.config/i3/config
+    content: |-
+      exec --no-startup-id "nm-applet"
+    position:
+      type: END
+    when:
+      installed:
+        - i3
+install:
+  - |-
+    sudo systemctl enable NetworkManager.service
+    sudo systemctl disable dhcpcd.service
+    sudo systemctl disable dhcpcd@.service
+    sudo systemctl enable wpa_supplicant.service
+    sudo gpasswd -a munhunger network

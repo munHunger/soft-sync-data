@@ -1,0 +1,6 @@
+name: "Net tools"
+packages:
+  - name: "net-tools"
+    alternatives:
+      - name: "net-tools"
+        manager: PACMAN

@@ -23,11 +23,17 @@ wanted:
   - extra/colorPicker
   - extra/scrot
   - social/discord
+  - network/networkmanager
+  - graphic/blender
+  - graphic/krita
+  - network/nettools
+  - game/steam
+  - cura
+  - extra/docker
 installed:
   - aurutils
   - urxvt
   - pulseaudio
-  - polybar
   - openscad
   - rofi
   - code
@@ -44,3 +50,11 @@ installed:
   - extra/colorPicker
   - extra/scrot
   - social/discord
+  - network/networkmanager
+  - graphic/blender
+  - graphic/krita
+  - network/nettools
+  - game/steam
+  - polybar
+  - cura
+  - extra/docker

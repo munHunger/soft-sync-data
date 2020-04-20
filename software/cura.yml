@@ -1,0 +1,6 @@
+name: "Cura"
+packages:
+  - name: "cura"
+    alternatives:
+      - name: "cura"
+        manager: PACMAN
