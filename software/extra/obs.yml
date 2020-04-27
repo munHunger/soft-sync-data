@@ -1,0 +1,6 @@
+name: "OBS"
+packages:
+  - name: "obs-studio"
+    alternatives:
+      - name: "obs-studio"
+        manager: PACMAN

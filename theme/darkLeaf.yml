@@ -1,0 +1,13 @@
+name: Dark Leaf
+wallpaper: ~/.config/soft-sync/data/theme/darkLeaf.jpg
+window:
+  bg: "#010703"
+  border: "#000000"
+  active:
+    fg: "#F8C7CC"
+  inactive:
+    fg: "#81A684"
+bar:
+  bg: "#0E0F19"
+  fg: "#81A684"
+  alert: "#F8C7CC"

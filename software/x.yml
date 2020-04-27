@@ -36,6 +36,10 @@ packages:
     alternatives:
       - name: "xf86-input-synaptics"
         manager: PACMAN
+  - name: "xf86-input-wacom"
+    alternatives:
+      - name: "xf86-input-wacom"
+        manager: PACMAN
 settings:
   - path: /home/munhunger/.Xresources
     content: |-

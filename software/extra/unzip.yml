@@ -1,0 +1,6 @@
+name: "unzip"
+packages:
+  - name: "unzip"
+    alternatives:
+      - name: "unzip"
+        manager: PACMAN

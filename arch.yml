@@ -2,6 +2,7 @@ name: arch laptop
 manager:
   - PACMAN
   - AURUTILS
+theme: darkLeaf
 wanted:
   - aurutils
   - i3
@@ -30,6 +31,8 @@ wanted:
   - game/steam
   - cura
   - extra/docker
+  - extra/unzip
+  - extra/obs
 installed:
   - aurutils
   - urxvt
@@ -41,7 +44,6 @@ installed:
   - nvidia
   - i3
   - chrome
-  - x
   - bashPrompt
   - wallpaper
   - bluetooth
@@ -58,3 +60,6 @@ installed:
   - polybar
   - cura
   - extra/docker
+  - x
+  - extra/unzip
+  - extra/obs

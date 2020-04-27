@@ -212,14 +212,14 @@ settings:
       ramp-low = ${xrdb:color2:#010}
       ramp-medium = ${xrdb:color3:#010}
       ramp-high = ${xrdb:color1:#010}
-      background = ${xrdb:color0:#010}
+      background = {:bar.bg}
       background-alt = ${xrdb:color8:#000}
-      foreground = ${xrdb:color6:#A7C9C3}
+      foreground = {:bar.fg}
       foreground-focus = ${xrdb:color6:#FFC600}
       foreground-alt = ${xrdb:color14:#555}
       primary = ${xrdb:color7:#ffb52a}
-      secondary = ${xrdb:color9:#e60053}
-      alert = ${xrdb:color1:#C714CC}
+      secondary = {:bar.alert}
+      alert = {:bar.alert}
 
       [bar/poly]
       monitor = ${env:MONITOR:}
