@@ -33,6 +33,7 @@ wanted:
   - extra/docker
   - extra/unzip
   - extra/obs
+  - script/screenLayout
 installed:
   - aurutils
   - urxvt

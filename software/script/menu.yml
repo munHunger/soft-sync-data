@@ -1,0 +1,31 @@
+name: "rofi menu system"
+dependencies:
+  - rofi
+settings:
+  - path: ~/.config/i3/config
+    content: |-
+      bindsym $mod+m exec "~/.config/scripts/menu.sh"
+    position:
+      type: END
+    when:
+      installed:
+        - i3
+  - path: ~/.config/scripts/menu.sh
+    content: |-
+        #!/bin/bash
+        DIR=~/.script/
+
+        while :
+        do
+            SELECTION=$(ls -a $DIR | grep -v 'menu.sh' | rofi -dmenu)
+
+            if [[ -d $DIR$SELECTION ]]; then
+                DIR=$DIR$SELECTION/
+            elif [[ -f $DIR$SELECTION ]]; then
+                exec $DIR$SELECTION
+                exit 0
+            else
+                echo "$SELECTION is not valid"
+                exit 1
+            fi
+        done
