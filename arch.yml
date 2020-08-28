@@ -72,3 +72,6 @@ installed:
   - game/minecraft
   - dev/arduino
   - dev/postman
+  - dev/opencv
+  - script/menu
+  - script/screenLayout
