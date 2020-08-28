@@ -37,6 +37,7 @@ wanted:
   - game/minecraft
   - dev/postman
   - dev/opencv
+  - script/screenLayout
 installed:
   - aurutils
   - urxvt
