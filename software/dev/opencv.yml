@@ -1,0 +1,6 @@
+name: "Open cv"
+packages:
+  - name: "opencv"
+    alternatives:
+      - name: "opencv"
+        manager: PACMAN

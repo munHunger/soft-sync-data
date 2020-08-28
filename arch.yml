@@ -33,6 +33,10 @@ wanted:
   - extra/docker
   - extra/unzip
   - extra/obs
+  - extra/peek
+  - game/minecraft
+  - dev/postman
+  - dev/opencv
 installed:
   - aurutils
   - urxvt
@@ -63,3 +67,7 @@ installed:
   - x
   - extra/unzip
   - extra/obs
+  - extra/peek
+  - game/minecraft
+  - dev/arduino
+  - dev/postman

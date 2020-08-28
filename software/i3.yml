@@ -6,6 +6,10 @@ packages:
     alternatives:
       - name: "i3-wm"
         manager: PACMAN
+  - name: "i3 gaps"
+    alternatives:
+      - name: "i3-gaps"
+        manager: AURUTILS
 settings:
   - path: ~/.config/i3/config
     content: |-

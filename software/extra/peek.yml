@@ -1,0 +1,6 @@
+name: "peek gif screen recorder"
+packages:
+  - name: "peek"
+    alternatives:
+      - name: "peek"
+        manager: PACMAN

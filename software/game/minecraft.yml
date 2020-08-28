@@ -1,0 +1,6 @@
+name: "minecraft"
+packages:
+  - name: "minecraft"
+    alternatives:
+      - name: "minecraft-launcher"
+        manager: AURUTILS

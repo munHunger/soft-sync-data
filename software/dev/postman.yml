@@ -1,0 +1,6 @@
+name: "postman"
+packages:
+  - name: "postman"
+    alternatives:
+      - name: "postman"
+        manager: AURUTILS

@@ -1,0 +1,6 @@
+name: "arduino"
+packages:
+  - name: "arduino"
+    alternatives:
+      - name: "arduino"
+        manager: PACMAN

@@ -1,13 +1,26 @@
 name: Dark Leaf
 wallpaper: ~/.config/soft-sync/data/theme/darkLeaf.jpg
+colors:
+  - &pink "#F8C7CC"
+  - &richBlack "#010703"
+  - &forestGreen "#81A684"
+  - &viridian "57886C"
+  - &deepSpaceSparkle "#466060"
+  - &metallicSeaweed "#468189"
+  - &opal "#9DBEBB"
+
 window:
-  bg: "#010703"
-  border: "#000000"
+  bg: *richBlack
+  border: *richBlack
   active:
-    fg: "#F8C7CC"
+    fg: *pink
   inactive:
-    fg: "#81A684"
+    fg: *forestGreen
 bar:
-  bg: "#0E0F19"
-  fg: "#81A684"
-  alert: "#F8C7CC"
+  bg: *richBlack
+  fg: *forestGreen
+  alert: *metallicSeaweed
+
+terminal:
+  blue: *metallicSeaweed
+  cyan: *opal

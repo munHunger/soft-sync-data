@@ -56,11 +56,11 @@ settings:
       !yellow
       *.color3:		 #ffe261
       !blue
-      *.color4:		 #40b4c4
+      *.color4:		 {:terminal.blue}
       !purple
       *.color5:		 #dc8cc3
       !cyan
-      *.color6:		 #b4dce7
+      *.color6:		 {:terminal.cyan}
       !white
       *.color7:		 #ffffff
 
@@ -73,11 +73,11 @@ settings:
       !yellow
       *.color11:		 #ffe261
       !blue
-      *.color12:		 #40b4c4
+      *.color12:		 {:terminal.blue}
       !purple
       *.color13:		 #dc8cc3
       !cyan
-      *.color14:		 #b4dce7
+      *.color14:		 {:terminal.cyan}
       !white
       *.color15:		 #ffffff
   - path: /etc/X11/xorg.conf.d/00-keyboard.conf
