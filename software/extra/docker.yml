@@ -4,3 +4,7 @@ packages:
     alternatives:
       - name: "docker"
         manager: PACMAN
+  - name: "docker-compose"
+    alternatives:
+      - name: "docker-compose"
+        manager: PACMAN

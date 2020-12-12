@@ -1,0 +1,6 @@
+name: "openxr - vr"
+packages:
+  - name: "openxr"
+    alternatives:
+      - name: "openxr-loader-git"
+        manager: AURUTILS

@@ -8,6 +8,18 @@ packages:
     alternatives:
       - name: "ttf-ubuntu-font-family"
         manager: PACMAN
+  - name: "freefont"
+    alternatives:
+      - name: "ttf-freefont"
+        manager: PACMAN
+  - name: "arphic-uming"
+    alternatives:
+      - name: "ttf-arphic-uming"
+        manager: PACMAN
+  - name: "baekmuk"
+    alternatives:
+      - name: "ttf-baekmuk"
+        manager: PACMAN
   - name: "Cherry bitmap"
     alternatives:
       - name: "cherry-font-git"

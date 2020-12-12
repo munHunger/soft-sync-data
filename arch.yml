@@ -37,7 +37,12 @@ wanted:
   - game/minecraft
   - dev/postman
   - dev/opencv
+  - dev/gradle
+  - dev/rust
   - script/screenLayout
+  - extra/japaneseLayout
+  - extra/etcher
+  - graphic/openxr
 installed:
   - aurutils
   - urxvt
@@ -75,3 +80,10 @@ installed:
   - dev/opencv
   - script/menu
   - script/screenLayout
+  - dev/cmake
+  - dev/gradle
+  - dev/rust
+  - extra/japaneseLayout
+  - extra/etcher
+  - fuse
+  - graphic/openxr

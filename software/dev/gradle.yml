@@ -1,0 +1,6 @@
+name: "gradle"
+packages:
+  - name: "gradle"
+    alternatives:
+      - name: "gradle"
+        manager: PACMAN

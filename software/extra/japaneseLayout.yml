@@ -1,0 +1,15 @@
+name: "japanese layout"
+packages:
+  - name: "uim"
+    alternatives:
+      - name: "uim"
+        manager: PACMAN
+
+  #   - name: "uim-mozc"
+  #     alternatives:
+  #       - name: "uim-mozc"
+  #         manager: AURUTILS
+  - name: "anthy"
+    alternatives:
+      - name: "anthy"
+        manager: PACMAN

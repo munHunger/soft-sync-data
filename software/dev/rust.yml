@@ -1,0 +1,6 @@
+name: "rust"
+packages:
+  - name: "rustup"
+    alternatives:
+      - name: "rustup"
+        manager: PACMAN

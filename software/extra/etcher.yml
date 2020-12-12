@@ -1,0 +1,6 @@
+name: "etcher OS flasher"
+packages:
+  - name: "etcher"
+    alternatives:
+      - name: "etcher-bin"
+        manager: AURUTILS

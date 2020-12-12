@@ -1,0 +1,6 @@
+name: "cmake"
+packages:
+  - name: "cmake"
+    alternatives:
+      - name: "cmake"
+        manager: PACMAN

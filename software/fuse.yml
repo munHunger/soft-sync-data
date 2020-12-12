@@ -1,0 +1,6 @@
+name: "fuse"
+packages:
+  - name: "fuse"
+    alternatives:
+      - name: "fuse2"
+        manager: PACMAN
