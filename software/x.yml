@@ -108,7 +108,7 @@ settings:
   - path: /etc/X11/xorg.conf.d/90-monitor.conf
     content: |-
       Section "Screen"
-          Identifier "eDP-1"
+          Identifier "eDP1"
           SubSection "Display"
               Depth 24
               Modes "1920x1080"
@@ -116,11 +116,11 @@ settings:
       EndSection
 
       Section "Monitor"
-          Identifier "eDP-1"
+          Identifier "eDP1"
           Option "Primary" "true"
       EndSection
 
       Section "Monitor"
-          Identifier "DP-2"
-          Option "RightOf" "eDP-1"
+          Identifier "DP2"
+          Option "RightOf" "eDP1"
       EndSection

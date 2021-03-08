@@ -1,0 +1,8 @@
+name: "unity"
+dependencies:
+  - aurutils
+packages:
+  - name: "unity-editor"
+    alternatives:
+      - name: "unity-editor"
+        manager: AURUTILS

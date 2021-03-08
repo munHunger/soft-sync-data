@@ -1,0 +1,16 @@
+name: "script for mapping wacom devices"
+dependencies:
+  - script/menu
+  - rofi
+settings:
+  - path: ~/.config/scripts/scripts/screenLayout/configure.sh
+    content: |-
+      #!/bin/bash
+
+      ID=$(xsetwacom --list | grep STYLUS | grep Intuos | cut -f2 | cut -d ' ' -f2)
+      CONNECTED_MONITORS=$(xrandr -q | grep " connected " | awk '{ print$1 }')
+
+      echo $ID
+      SELECTED_MONITOR=$(xrandr -q | grep " connected " | awk '{ print$1 }' | rofi -dmenu)
+
+      xsetwacom --set $ID MapToOutput $SELECTED_MONITOR

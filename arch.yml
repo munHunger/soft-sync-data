@@ -13,7 +13,6 @@ wanted:
   - rofi
   - code
   - arandr
-  - nvidia
   - chrome
   - x
   - bashPrompt
@@ -40,9 +39,14 @@ wanted:
   - dev/gradle
   - dev/rust
   - script/screenLayout
+  - script/wacom
   - extra/japaneseLayout
   - extra/etcher
-  - graphic/openxr
+  - extra/k8s
+  - dev/unity
+  - extra/compton
+  - mesa
+  - graphic/pureref
 installed:
   - aurutils
   - urxvt
@@ -51,7 +55,6 @@ installed:
   - rofi
   - code
   - arandr
-  - nvidia
   - i3
   - chrome
   - bashPrompt
@@ -87,3 +90,8 @@ installed:
   - extra/etcher
   - fuse
   - graphic/openxr
+  - extra/k8s
+  - dev/unity
+  - extra/compton
+  - mesa
+  - script/wacom

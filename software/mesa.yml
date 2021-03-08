@@ -1,0 +1,14 @@
+name: "Mesa Video Drivers"
+packages:
+  - name: "mesa driver"
+    alternatives:
+      - name: "mesa"
+        manager: PACMAN
+settings:
+  - path: /etc/X11/xorg.conf.d/10-dri.conf
+    content: |-
+      Section "Device"
+      Identifier "Card0"
+      Driver "intel"
+      Option "AccelMethod" "sna"
+      EndSection

@@ -1,6 +1,8 @@
-name: Dark Leaf
-wallpaper: ~/.config/soft-sync/data/theme/monstera.png
+name: North
+wallpaper: ~/.config/soft-sync/data/theme/north.png
 colors:
+  - &bg "#2e3440"
+  - &fg "#d8dee9"
   - &pink "#F8C7CC"
   - &richBlack "#010703"
   - &forestGreen "#81A684"
@@ -10,14 +12,14 @@ colors:
   - &opal "#9DBEBB"
 
 window:
-  bg: *richBlack
-  border: *richBlack
+  bg: *bg
+  border: *bg
   active:
     fg: *pink
   inactive:
     fg: *forestGreen
 bar:
-  bg: *richBlack
+  bg: *bg
   fg: *forestGreen
   alert: *metallicSeaweed
 

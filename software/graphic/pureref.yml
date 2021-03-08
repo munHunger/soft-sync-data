@@ -1,0 +1,6 @@
+name: "pureref"
+packages:
+  - name: "pureref"
+    alternatives:
+      - name: "pureref"
+        manager: AURUTILS
