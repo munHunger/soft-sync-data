@@ -1,0 +1,6 @@
+name: "Lens k8s UI"
+packages:
+  - name: "lens"
+    alternatives:
+      - name: "lens"
+        manager: AURUTILS

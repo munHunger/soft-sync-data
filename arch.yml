@@ -30,6 +30,7 @@ wanted:
   - game/steam
   - cura
   - extra/docker
+  - extra/lens
   - extra/unzip
   - extra/obs
   - extra/peek
@@ -47,6 +48,8 @@ wanted:
   - extra/compton
   - mesa
   - graphic/pureref
+  - evdi
+  - displaylink
 installed:
   - aurutils
   - urxvt
@@ -95,3 +98,7 @@ installed:
   - extra/compton
   - mesa
   - script/wacom
+  - graphic/pureref
+  - evdi
+  - displaylink
+  - extra/lens

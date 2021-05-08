@@ -124,3 +124,13 @@ settings:
           Identifier "DP2"
           Option "RightOf" "eDP1"
       EndSection
+
+      Section "Monitor"
+          Identifier "DVI-I-1-1"
+          Option "RightOf" "eDP1"
+      EndSection
+
+      Section "Monitor"
+          Identifier "DVI-I-2-2"
+          Option "RightOf" "DVI-I-1-1"
+      EndSection

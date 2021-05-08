@@ -1,0 +1,15 @@
+name: "evdi"
+dependencies:
+  - aurutils
+packages:
+  - name: "evdi-git"
+    alternatives:
+      - name: "evdi-git"
+        manager: AURUTILS
+settings:
+  - path: /etc/modules-load.d/evdi.conf
+    content: |-
+      evdi
+  - path: /etc/modprobe.d/dkms.conf
+    content: |-
+      options evdi initial_device_count=2

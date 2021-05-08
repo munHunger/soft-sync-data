@@ -16,3 +16,7 @@ packages:
     alternatives:
       - name: "kubeadm"
         manager: PACMAN
+  - name: "helm"
+    alternatives:
+      - name: "kubeadm"
+        manager: PACMAN
