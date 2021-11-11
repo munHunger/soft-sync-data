@@ -1,0 +1,6 @@
+name: "Inkscape"
+packages:
+  - name: "inkscape"
+    alternatives:
+      - name: "inkscape"
+        manager: PACMAN

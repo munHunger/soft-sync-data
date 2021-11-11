@@ -1,0 +1,6 @@
+name: "heidisql"
+packages:
+  - name: "heidisql"
+    alternatives:
+      - name: "heidisql"
+        manager: AURUTILS

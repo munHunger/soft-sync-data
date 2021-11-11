@@ -1,0 +1,6 @@
+name: "Digikam"
+packages:
+  - name: "digikam"
+    alternatives:
+      - name: "digikam"
+        manager: PACMAN

@@ -1,0 +1,6 @@
+name: "xournal++"
+packages:
+  - name: "xournal"
+    alternatives:
+      - name: "xournal"
+        manager: AURUTILS

@@ -50,6 +50,17 @@ wanted:
   - graphic/pureref
   - evdi
   - displaylink
+  - dev/drone-cli
+  - graphic/inkscape
+  - dev/heidisql
+  - graphic/digikam
+  - graphic/rawtherapee
+  - social/zoom
+  - micropad
+  - styluswrite
+  - xournalpp
+  - extra/notion
+  - dev/android
 installed:
   - aurutils
   - urxvt
@@ -59,7 +70,6 @@ installed:
   - code
   - arandr
   - i3
-  - chrome
   - bashPrompt
   - wallpaper
   - bluetooth
@@ -99,6 +109,17 @@ installed:
   - mesa
   - script/wacom
   - graphic/pureref
-  - evdi
-  - displaylink
   - extra/lens
+  - dev/drone-cli
+  - graphic/inkscape
+  - dev/heidisql
+  - chrome
+  - displaylink
+  - evdi
+  - graphic/digikam
+  - social/zoom
+  - graphic/rawtherapee
+  - micropad
+  - styluswrite
+  - xournalpp
+  - extra/notion

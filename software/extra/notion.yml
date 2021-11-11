@@ -1,0 +1,6 @@
+name: "notion"
+packages:
+  - name: "notion"
+    alternatives:
+      - name: "notion-app"
+        manager: AURUTILS

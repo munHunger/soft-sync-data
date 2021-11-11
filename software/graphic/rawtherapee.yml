@@ -1,0 +1,6 @@
+name: "rawtherapee"
+packages:
+  - name: "rawtherapee"
+    alternatives:
+      - name: "rawtherapee"
+        manager: PACMAN

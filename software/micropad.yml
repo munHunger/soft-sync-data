@@ -1,0 +1,8 @@
+name: "micropad note taking app"
+dependencies:
+  - aurutils
+packages:
+  - name: "micropad"
+    alternatives:
+      - name: "micropad"
+        manager: AURUTILS

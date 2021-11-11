@@ -1,0 +1,8 @@
+name: "stylus write"
+dependencies:
+  - aurutils
+packages:
+  - name: "write_stylus"
+    alternatives:
+      - name: "write_stylus"
+        manager: AURUTILS

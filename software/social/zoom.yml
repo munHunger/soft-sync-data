@@ -1,0 +1,6 @@
+name: "Zoom"
+packages:
+  - name: "zoom"
+    alternatives:
+      - name: "zoom"
+        manager: AURUTILS

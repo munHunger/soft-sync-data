@@ -1,0 +1,6 @@
+name: "android"
+packages:
+  - name: "android-studio"
+    alternatives:
+      - name: "android-studio"
+        manager: AURUTILS
