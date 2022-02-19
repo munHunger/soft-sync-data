@@ -61,9 +61,11 @@ wanted:
   - xournalpp
   - extra/notion
   - dev/android
+  - extra/printer
+  - extra/pdf
+  - dev/insomnia
 installed:
   - aurutils
-  - urxvt
   - pulseaudio
   - openscad
   - rofi
@@ -123,3 +125,8 @@ installed:
   - styluswrite
   - xournalpp
   - extra/notion
+  - dev/android
+  - extra/printer
+  - extra/pdf
+  - dev/insomnia
+  - urxvt

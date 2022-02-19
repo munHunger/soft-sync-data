@@ -19,9 +19,9 @@ settings:
       urxvt.termName: rxvt-unicode
       urxvt.scrollBar: false
       !! Font prefferenes
-      urxvt.font: xft:DejaVu Sans Mono:pixelsize=13
-      urxvt.boldFont: xft:DejaVu Sans Mono:pixelsize=13:weight=bold
-      urxvt.letterSpace: -1
+      urxvt.font: xft:cherry:pixelsize=13
+      urxvt.boldFont: xft:cherry:pixelsize=13
+      !!urxvt.letterSpace: -1
       !! Larger history limit
       urxvt.saveLines: 1000000
 
@@ -30,43 +30,26 @@ settings:
       URxvt.keysym.Control-0x2b: perl:font-size:increase
       URxvt.keysym.Control-0x2d: perl:font-size:decrease
 
-      !!Monokai color theme
-      ! special
-      *.foreground:   #f1ebeb
-      *.background:   #272822
-      *.cursorColor:  #f1ebeb
+      *.foreground:   #D8DEE9
+      *.background:   #2E3440
+      *.cursorColor:  #D8DEE9
 
-      ! black
-      *.color0:       #48483e
-      *.color8:       #76715e
-
-      ! red
-      *.color1:       #dc2566
-      *.color9:       #fa2772
-
-      ! green
-      *.color2:       #8fc029
-      *.color10:      #a7e22e
-
-      ! yellow
-      *.color3:       {:terminal.blue}
-      *.color11:      {:terminal.blue}
-
-      ! blue
-      *.color4:       #55bcce
-      *.color12:      #66d9ee
-
-      ! magenta
-      *.color5:       #9358fe
-      *.color13:      #ae82ff
-
-      ! cyan
-      *.color6:       #56b7a5
-      *.color14:      #66efd5
-
-      ! white
-      *.color7:       #acada1
-      *.color15:      #cfd0c2
+      *.color0: #3B4252
+      *.color1: #BF616A
+      *.color2: #A3BE8C
+      *.color3: #EBCB8B
+      *.color4: #81A1C1
+      *.color5: #B48EAD
+      *.color6: #88C0D0
+      *.color7: #E5E9F0
+      *.color8: #4C566A
+      *.color9: #BF616A
+      *.color10: #A3BE8C
+      *.color11: #EBCB8B
+      *.color12: #81A1C1
+      *.color13: #B48EAD
+      *.color14: #8FBCBB
+      *.color15: #ECEFF4
 
       urxvt*transparent: true
       urxvt*shading: 30

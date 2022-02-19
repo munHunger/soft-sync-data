@@ -1,0 +1,14 @@
+name: "printer software"
+packages:
+  - name: "cups"
+    alternatives:
+      - name: "cups"
+        manager: PACMAN
+  - name: "hplip"
+    alternatives:
+      - name: "hplip"
+        manager: PACMAN
+  - name: "system-config-printer"
+    alternatives:
+      - name: "system-config-printer"
+        manager: PACMAN

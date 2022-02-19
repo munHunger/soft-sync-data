@@ -1,0 +1,6 @@
+name: "insomnia"
+packages:
+  - name: "insomnia"
+    alternatives:
+      - name: "insomnia-git"
+        manager: AURUTILS

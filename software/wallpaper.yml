@@ -7,6 +7,7 @@ packages:
 install:
   - |-
     wget -O ~/.config/wallpaper.jpg https://wallpaperaccess.com/full/1398275.jpg
+    wget -O ~/.config/wallpaper.png https://i.imgur.com/OSqi7Fg.png
 settings:
   - path: ~/.config/i3/config
     content: |-

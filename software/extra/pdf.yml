@@ -1,0 +1,6 @@
+name: "pdf reader"
+packages:
+  - name: "foxit"
+    alternatives:
+      - name: "foxitreader"
+        manager: AURUTILS
